@@ -44,10 +44,10 @@ function CommandDialog({
   return (
     <Dialog {...props}>
       <DialogHeader className="sr-only">
-        <VisuallyHidden.Root>
+        <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
           <DialogDescription>{description}</DialogDescription>
-        </VisuallyHidden.Root>
+        </DialogHeader>
       
       <DialogContent
         className={cn("overflow-hidden p-0", className)}
