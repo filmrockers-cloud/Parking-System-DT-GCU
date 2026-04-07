@@ -1,73 +1,49 @@
-# React + TypeScript + Vite
+# 🅿️ Smart Parking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based smart parking management system prototype assignment of design thiking at Garden City University
+parking system link: https://soon
 
-Currently, two official plugins are available:
+## ✨ Features
+### 🚗 For Drivers
+- Real-time parking spot search with map integration
+- GPS-based location detection
+- Reserve parking spots for 30 minutes
+- Start/end parking sessions
+- View active sessions and reservations
+- Rate calculation based on hourly pricing
+- Vehicle plate and model registration
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏢 For Parking Owners
+- Dashboard with statistics and earnings
+- Add/Edit/Delete parking spaces
+- Upload parking images and legal documents
+- Manage parking availability (activate/deactivate)
+- View active sessions and pending reservations
+- Confirm user arrivals
+- Earnings tracking
 
-## React Compiler
+### 👑 For Administrators
+- Comprehensive admin dashboard
+- User management (approve/reject owners)
+- Parking space approval system
+- Document verification
+- Payment proof verification
+- System statistics and monitoring
+- Activity log tracking
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔧 General Features
+- User authentication (JWT-based)
+- Role-based access control
+- Real-time notifications
+- Responsive design (mobile-friendly)
+- Dark/Light theme support
+- File upload (images, documents)
+- WebSocket support for real-time updates
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🙌 Team Members
+- **Thiruselvan** - [Github](https://Github.com/ThiruXD)
+- **Selva** - [Github](https://Github.com/Selva-778)
+- **SanjuReddy** - [Github](https://Github.com/SanjuReddy0)
