@@ -1,7 +1,8 @@
 # 🅿️ Smart Parking System
 
 A web-based smart parking management system prototype assignment of design thiking at Garden City University
-parking system link: https://soon
+parking system link: https://smart-parking-system-gcu.netlify.app
+
 
 ## ✨ Features
 ### 🚗 For Drivers
@@ -40,8 +41,6 @@ parking system link: https://soon
 - File upload (images, documents)
 - WebSocket support for real-time updates
 
-
----
 
 ## 🙌 Team Members
 - **Thiruselvan** - [Github](https://Github.com/ThiruXD)
